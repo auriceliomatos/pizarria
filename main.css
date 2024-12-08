@@ -2,11 +2,11 @@ boby {
     font-family: Roboto,sans-serif;
 }
 .navbar {
-    background-color:#FF8D31 ;
+    background-color:#D9323E;
 }
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #FF8D31;
+    color:#D9323E;
 }
 #cabecalho .nav .nav-link,
 .navbar-brand,
@@ -19,21 +19,21 @@ color: #fff;
     background-color: #fff;
 }
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: Grey Qo, cursive;
 }
-#sobre-restaurante, #cardapio{
-    background-color: #f5e7c7;
+#sobre-restaurante, #cardapio, #fale-conosco {
+    background-color:#DBC8BD;
 }
 .text-colored {
-    color:#FF8D31;
+    color:#D9323E;
 }
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #FF8D31;
+    background-color:#D9323E;
     color: #fff;
 }
 .nav-cardapio .nav-link:hover {
-    color:  #FF8D31;
+    color:  #D9323E;
 }
 .social-links li {
     list-style: none;
@@ -42,7 +42,19 @@ color: #fff;
 .social-links a {
     text-decoration: none;
 }
+
+
+
 @media (max-width: 767px){
     .ccarousel-item img{
         height: 200px;
     }
+
+ /*-------------
+   border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        box-shadow: 3px 3px 10px rgba(17, 13, 13, 0.512);
+ 
+ */
+
